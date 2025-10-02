@@ -5,7 +5,8 @@
 - `/webservice` — папка с вебсервисом  
 - `train_deberta_with_bio.ipynb` — ноутбук с кодом обучения модели с BIO-разметкой  
 - `train_deberta_without_bio.ipynb` — ноутбук с кодом обучения модели без BIO-разметки  
-- `train_rosberta_with_bio.ipynb` — ноутбук с кодом обучения модели RoBERTa с BIO-разметкой  
+- `train_rosberta_with_bio.ipynb` — ноутбук с кодом обучения модели RoBERTa с BIO-разметкой
+- `docs_lct.pdf` — Документация решения  
 
 ## Технические требования
 
