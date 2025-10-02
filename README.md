@@ -3,14 +3,14 @@
 ## Структура репозитория
 
 - `/webservice` — папка с вебсервисом  
-- `train_deberta_with_bio.ipynb` — ноутбук с кодом обучения модели с BIO-разметкой  
-- `train_deberta_without_bio.ipynb` — ноутбук с кодом обучения модели без BIO-разметки  
-- `train_rosberta_with_bio.ipynb` — ноутбук с кодом обучения модели RoBERTa с BIO-разметкой
-- `lct_docs.pdf` — Документация решения  
+- `train_deberta_with_bio.ipynb` — ноутбук с кодом обучения модели Debertav3 с BIO-разметкой  
+- `train_deberta_without_bio.ipynb` — ноутбук с кодом обучения модели Debertav3 без BIO-разметки  
+- `train_rosberta_without_bio.ipynb` — ноутбук с кодом обучения модели rosberta без BIO-разметки
+-  `lct_docs.pdf` — Документация решения  
 
 ## Технические требования
 
-Обучение модели `app/deberta_with_bio.pt` и `app/rosberta_with_bio.pt` проводилось на видеокартах **4×L4 (Kaggle)**, а модель `app/deberta_without_bio.pt` — на **RTX4090**.  
+Обучение модели `app/deberta_without_bio.pt` и `app/rosberta_without_bio.pt` проводилось на видеокартах **4×L4 (Kaggle)**, а модель `app/deberta_with_bio.pt` — на **RTX4090**.  
 Инференс выполняется на сервере с видеокартой **RTX4090**.
 
 Для лучшей воспроизводимости рекомендуется использовать те же GPU.
